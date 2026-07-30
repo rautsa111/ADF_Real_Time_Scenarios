@@ -114,7 +114,7 @@
 														"referenceName": "DS_csv_dynamic",
 														"type": "DatasetReference",
 														"parameters": {
-															"container": "soure",
+															"container": "source",
 															"folder": "files",
 															"filename": {
 																"value": "@item().name",
