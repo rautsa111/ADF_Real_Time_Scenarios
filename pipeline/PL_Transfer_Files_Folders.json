@@ -111,8 +111,16 @@
 												},
 												"inputs": [
 													{
-														"referenceName": "DS_ADLS_CSV",
-														"type": "DatasetReference"
+														"referenceName": "DS_csv_dynamic",
+														"type": "DatasetReference",
+														"parameters": {
+															"container": "soure",
+															"folder": "files",
+															"filename": {
+																"value": "@item().name",
+																"type": "Expression"
+															}
+														}
 													}
 												],
 												"outputs": [
@@ -185,8 +193,16 @@
 												},
 												"inputs": [
 													{
-														"referenceName": "DS_ADLS_CSV",
-														"type": "DatasetReference"
+														"referenceName": "DS_csv_dynamic",
+														"type": "DatasetReference",
+														"parameters": {
+															"container": "source",
+															"folder": "files",
+															"filename": {
+																"value": "@item().name",
+																"type": "Expression"
+															}
+														}
 													}
 												],
 												"outputs": [
@@ -259,8 +275,16 @@
 												},
 												"inputs": [
 													{
-														"referenceName": "DS_ADLS_CSV",
-														"type": "DatasetReference"
+														"referenceName": "DS_csv_dynamic",
+														"type": "DatasetReference",
+														"parameters": {
+															"container": "source",
+															"folder": "files",
+															"filename": {
+																"value": "@item().name",
+																"type": "Expression"
+															}
+														}
 													}
 												],
 												"outputs": [
