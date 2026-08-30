@@ -1,0 +1,15 @@
+{
+	"name": "adfrealtimeinsayali",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6e55b7d3-8f73-443d-8f08-191db484899f",
+		"tenantId": "39423411-4818-4caa-9027-218cd697b458"
+	}
+}
