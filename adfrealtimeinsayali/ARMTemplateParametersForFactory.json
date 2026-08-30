@@ -15,7 +15,7 @@
 			"value": "https://secert1.vault.azure.net/"
 		},
 		"LS_ADLS_CSV_properties_typeProperties_url": {
-			"value": "https://storagerealtimescenario.dfs.core.windows.net/"
+			"value": "https://datalakesayali.dfs.core.windows.net/"
 		},
 		"LS_Rest_API_properties_typeProperties_url": {
 			"value": " https://pokeapi.co/api/v2/pokemon/"

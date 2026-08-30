@@ -21,7 +21,7 @@
 		},
 		"LS_ADLS_CSV_properties_typeProperties_url": {
 			"type": "string",
-			"defaultValue": "https://storagerealtimescenario.dfs.core.windows.net/"
+			"defaultValue": "https://datalakesayali.dfs.core.windows.net/"
 		},
 		"LS_Rest_API_properties_typeProperties_url": {
 			"type": "string",
