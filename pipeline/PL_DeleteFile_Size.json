@@ -16,7 +16,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"dataset": {
-						"referenceName": "DS_ADLS_CSV",
+						"referenceName": "Dynamic_csv_con_fol",
 						"type": "DatasetReference"
 					},
 					"fieldList": [
@@ -64,12 +64,13 @@
 							"userProperties": [],
 							"typeProperties": {
 								"dataset": {
-									"referenceName": "DS_ADLS_CSV",
+									"referenceName": "DS_csv_dynamic",
 									"type": "DatasetReference"
 								},
 								"fieldList": [],
 								"storeSettings": {
 									"type": "AzureBlobFSReadSettings",
+									"recursive": true,
 									"enablePartitionDiscovery": false
 								},
 								"formatSettings": {

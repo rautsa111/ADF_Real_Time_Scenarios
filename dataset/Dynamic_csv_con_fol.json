@@ -1,0 +1,37 @@
+{
+	"name": "Dynamic_csv_con_fol",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_Dynamic_csv_con_fol",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"folder": {
+				"type": "string"
+			},
+			"insidefolder": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": {
+					"value": "@dataset().insidefolder",
+					"type": "Expression"
+				},
+				"fileSystem": {
+					"value": "@dataset().folder",
+					"type": "Expression"
+				}
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
