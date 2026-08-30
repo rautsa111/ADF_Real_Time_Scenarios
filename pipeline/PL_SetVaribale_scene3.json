@@ -1,5 +1,5 @@
 {
-	"name": "PL_SetVaribale_scene1",
+	"name": "PL_SetVaribale_scene3",
 	"properties": {
 		"activities": [
 			{
@@ -23,7 +23,7 @@
 					{
 						"activity": "Set variable1",
 						"dependencyConditions": [
-							"Skipped"
+							"Succeeded"
 						]
 					}
 				],
@@ -44,7 +44,7 @@
 					{
 						"activity": "Set variable2",
 						"dependencyConditions": [
-							"Completed"
+							"Succeeded"
 						]
 					}
 				],
